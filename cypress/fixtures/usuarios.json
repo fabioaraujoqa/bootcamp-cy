@@ -1,0 +1,17 @@
+[
+    {
+        "nome" : "Fábio", 
+        "sobrenome": "Araujo",
+        "cep": "23423432423"
+    },
+    {
+        "nome" : "Ana", 
+        "sobrenome": "Cunha",
+        "cep": "234223234"
+    },
+    {
+        "nome" : "Vinny", 
+        "sobrenome": "Felipe",
+        "cep": "2342fsdf"
+    }
+]
