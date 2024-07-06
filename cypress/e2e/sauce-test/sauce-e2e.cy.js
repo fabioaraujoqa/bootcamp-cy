@@ -22,12 +22,6 @@ describe('Teste de ponta a ponta no Saucelab', () => {
         cy.get('[data-test="finish"]').click()
         cy.get('[data-test="complete-header"]').should('have.text', 'Thank you for your order!' )
     });
-
-    it('Teste 2', () => {
-        cy.visit('')
-    });
-   
-
 });
 
 
