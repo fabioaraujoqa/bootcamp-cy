@@ -20,7 +20,7 @@ describe('Teste de ponta a ponta no Saucelab', () => {
         cy.get('[data-test="checkout"]').click()
         cy.cadastro(usuario[1].nome, usuario[1].sobrenome, usuario[1].cep)
         cy.get('[data-test="finish"]').click()
-        cy.get('[data-test="complete-header"]').should('have.text', 'Thank yosdfsdfdsu for your order!' )
+        cy.get('[data-test="complete-header"]').should('have.text', 'Thank you for your order!' )
     });
 });
 

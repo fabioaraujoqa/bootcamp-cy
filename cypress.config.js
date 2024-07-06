@@ -7,6 +7,7 @@ module.exports = defineConfig({
     },
     chromeWebSecurity: false,
     baseUrl: 'https://www.saucedemo.com/',
-    video: true
+    video: true, 
+    projectId: "iqmq33"
   },
 });
